@@ -36,5 +36,6 @@ Hệ thống cung cấp các chức năng:
 - Quản lý bệnh án theo thời gian
 - Quản lý thuốc và tồn kho
 
-Trương phương nam- 2506022012
+Trương phương nam-2506022012
+
 Mai Đông Duy-2606042062
