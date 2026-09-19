@@ -1,1 +1,17 @@
 19/9/2026
+
+- Tasks completed:
+  +None
+
+- Work in progress:
+  + Xây dựng chức năng quản lý lịch hẹn
+  + Thiết kế database cho bệnh nhân, bác sĩ và lịch hẹn
+  + Chuẩn bị chức năng theo dõi trạng thái lượt khám
+
+- Roadblocks:
+  + None
+
+- Plans for the next day:
+  + Tiếp tục hoàn thiện chức năng lịch hẹn
+  + Kết nối Python/Flask với MySQL
+  + Bắt đầu triển khai trạng thái lượt khám
