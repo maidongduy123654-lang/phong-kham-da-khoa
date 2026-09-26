@@ -95,8 +95,8 @@ Mai Đông Duy-2606042062
 *   **Kết quả đầu ra:** Lịch trực nhân sự được tối ưu hóa, báo cáo tài chính được phê duyệt, hệ thống phần mềm hoạt động ổn định và bảo mật dữ liệu y tế được đảm bảo.
 
 <p align="center">
-  <b>SƠ ĐỒ QUY TRÌNH PHÒNG KHÁM</b><br>
-   <span style="display: block; margin-top: 20px;">
-  <img src="image/SoDoPhongKhamDaKhoa.drawio.png" alt="Sơ đồ Workflow Phòng Khám" />
+  <b>SƠ ĐỒ QUY TRÌNH PHÒNG KHÁM</b>
+  <span style="display: block; margin-top: 15px;">
+    <img src="image/SoDoPhongKhamDaKhoa.drawio.png" alt="Sơ đồ Workflow Phòng Khám" />
+  </span>
 </p>
-
