@@ -1,5 +1,4 @@
 19/9/2026
-
 - Tasks completed:
   +None
 
@@ -15,3 +14,21 @@
   + Tiếp tục hoàn thiện chức năng lịch hẹn
   + Kết nối Python/Flask với MySQL
   + Bắt đầu triển khai trạng thái lượt khám
+
+
+26/9/2026
+- Tasks completed:
+  + Hoàn thiện Sơ đồ quy trình vận hành phòng khám (4 vai trò: Bệnh nhân, Lễ tân, Bác sĩ, Admin).
+  + Cập nhật và đồng bộ nội dung mô tả nghiệp vụ chi tiết vào file README.md.
+
+- Work in progress:
+  + Thiết kế cơ sở dữ liệu MySQL cho các bảng: Bệnh nhân, Bác sĩ và Lịch hẹn.
+  + Xây dựng logic chức năng tiếp đón (Check-in) và cấp số thứ tự vào Hàng đợi của Lễ tân.
+
+- Roadblocks:
+  + Không có (None).
+
+- Plans for the next day:
+  + Tiến hành kết nối backend Python/Flask với cơ sở dữ liệu MySQL.
+  + Triển khai logic phân luồng quyết định của Bác sĩ: "Có chỉ định Xét nghiệm / CĐHA" và "Không chỉ định".
+  + Phát triển API theo dõi trạng thái lượt khám của Bệnh nhân theo thời gian thực.
