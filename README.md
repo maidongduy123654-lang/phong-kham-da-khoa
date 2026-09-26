@@ -96,6 +96,7 @@ Mai Đông Duy-2606042062
 
 <p align="center">
   <b>SƠ ĐỒ QUY TRÌNH PHÒNG KHÁM</b><br>
+   
   <img src="image/SoDoPhongKhamDaKhoa.drawio.png" alt="Sơ đồ Workflow Phòng Khám" />
 </p>
 
