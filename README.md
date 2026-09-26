@@ -94,4 +94,8 @@ Mai Đông Duy-2606042062
     *   *Nếu hoạt động bình thường:* Tiếp tục duy trì giám sát tình trạng hoạt động ổn định.
 *   **Kết quả đầu ra:** Lịch trực nhân sự được tối ưu hóa, báo cáo tài chính được phê duyệt, hệ thống phần mềm hoạt động ổn định và bảo mật dữ liệu y tế được đảm bảo.
 
- ![Sơ đồ Workflow Phòng Khám](image/SoDoPhongKhamDaKhoa.drawio.png)
+<p align="center">
+  <b>SƠ ĐỒ QUY TRÌNH PHÒNG KHÁM</b><br>
+  <img src="image/SoDoPhongKhamDaKhoa.drawio.png" alt="Sơ đồ Workflow Phòng Khám" />
+</p>
+
