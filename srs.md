@@ -1,4 +1,4 @@
-# BÀI TẬP LỚN: ĐẶC TẢ YÊU CẦU PHẦN MỀM (SRS)
+# ĐẶC TẢ YÊU CẦU PHẦN MỀM (SRS)
 ## HỆ THỐNG QUẢN LÝ PHÒNG KHÁM ĐA KHOA 
 
 ---
