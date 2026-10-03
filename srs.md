@@ -1,5 +1,5 @@
 # BÀI TẬP LỚN: ĐẶC TẢ YÊU CẦU PHẦN MỀM (SRS)
-## HỆ THỐNG QUẢN LÝ PHÒNG KHÁM ĐA KHOA (STUDENT DEMO SYSTEM)
+## HỆ THỐNG QUẢN LÝ PHÒNG KHÁM ĐA KHOA 
 
 ---
 
@@ -12,7 +12,7 @@
 
 ---
 
-## II. ĐẶC TẢ CHỨC NĂNG CHI TIẾT (HOW THE SYSTEM WORKS)
+## II. ĐẶC TẢ CHỨC NĂNG CHI TIẾT 
 
 ### 1. Phân hệ Bệnh nhân (Patient Module)
 *   **[FR-PT-01] Đặt lịch trực tuyến:** Bệnh nhân lên Web/App chọn Chuyên khoa -> Bác sĩ -> Ngày/Giờ còn trống.
@@ -42,7 +42,7 @@
 
 ---
 
-## III. QUY TẮC NGHIỆP VỤ & GIẢ ĐỊNH CHO BÀI DEMO (BUSINESS RULES)
+## III. QUY TẮC NGHIỆP VỤ & GIẢ ĐỊNH  (BUSINESS RULES)
 1. **Quy tắc Mã bệnh nhân:** Mỗi bệnh nhân chỉ có một mã `Patient ID` duy nhất để quản lý dữ liệu xuyên suốt các công đoạn.
-2. **Giả định quy trình thanh toán (Dành cho bản Demo):** Để tối ưu hóa lượng code và tập trung vào luồng dữ liệu bệnh án cốt lõi, hệ thống giả định bệnh nhân sẽ thanh toán tập trung toàn bộ chi phí phát sinh (tiền thuốc, tiền chụp chiếu xét nghiệm nếu có) một lần duy nhất tại quầy Lễ tân sau khi Bác sĩ hoàn thành ca khám.
+2. **Giả định quy trình thanh toán:** Để tối ưu hóa lượng code và tập trung vào luồng dữ liệu bệnh án cốt lõi, hệ thống giả định bệnh nhân sẽ thanh toán tập trung toàn bộ chi phí phát sinh (tiền thuốc, tiền chụp chiếu xét nghiệm nếu có) một lần duy nhất tại quầy Lễ tân sau khi Bác sĩ hoàn thành ca khám.
 3. **Giả định kho thuốc & kết quả cận lâm sàng:** Hệ thống giả định kết quả xét nghiệm/chụp chiếu và số lượng thuốc trong kho luôn ở trạng thái sẵn sàng. Bác sĩ sau khi ra chỉ định có thể ghi nhận kết quả và thực hiện kê đơn ngay trên cùng một phân hệ mà không cần qua các bước trung gian của phòng kỹ thuật hay phòng dược.
