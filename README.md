@@ -166,3 +166,5 @@ Mai Đông Duy-2606042062
 1. **Quy tắc Mã bệnh nhân:** Mỗi bệnh nhân chỉ có một mã `Patient ID` duy nhất để quản lý bệnh án xuyên suốt từ Lễ tân -> Bác sĩ -> Nhà thuốc.
 2. **Quy trình Khép kín:** Dữ liệu chạy tuần tự theo luồng: `Đặt lịch (Patient)` -> `Tiếp đón (Lễ tân)` -> `Khám bệnh (Bác sĩ)` -> `Chụp chiếu (Kỹ thuật viên)` -> `Đóng tiền (Thu ngân)` -> `Lấy thuốc (Dược sĩ)`.
 3. **Đồng bộ thời gian thực:** Kết quả từ phân hệ Kỹ thuật viên bắt buộc phải tự động nhảy về màn hình Bác sĩ ngay khi bấm "Phê duyệt" để bác sĩ kết luận, bệnh nhân không cần quay lại quầy lễ tân.
+
+<img width="1538" height="1480" alt="sododb drawio" src="https://github.com/user-attachments/assets/9e5ca6cc-75d5-488c-bc09-0b7142c77d7b" />
