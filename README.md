@@ -103,7 +103,7 @@ Mai Đông Duy-2606042062
 
 
 
-# BÀI TẬP LỚN: ĐẶC TẢ YÊU CẦU PHẦN MỀM (SRS)
+# ĐẶC TẢ YÊU CẦU PHẦN MỀM (SRS)
 ## HỆ THỐNG QUẢN LÝ PHÒNG KHÁM ĐA KHOA 
 
 ---
