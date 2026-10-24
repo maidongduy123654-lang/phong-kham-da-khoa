@@ -109,7 +109,7 @@ Mai Đông Duy-2606042062
 ---
 
 ## I. DANH SÁCH CÁC ĐỐI TƯỢNG (ACTORS) TRONG HỆ THỐNG
-Để hệ thống vận hành không bị gãy luồng dữ liệu, dự án bao gồm 7 đối tượng sau:
+Để hệ thống vận hành không bị gãy luồng dữ liệu, dự án bao gồm 4 đối tượng sau:
 1. **Bệnh nhân (Patient):** Đặt lịch, check-in, tra cứu kết quả.
 2. **Lễ tân (Receptionist):** Tiếp đón, tạo hồ sơ mới, thu phí khám ban đầu, cấp STT.
 3. **Bác sĩ (Doctor):** Khám bệnh, chỉ định cận lâm sàng, kê đơn thuốc, kết luận.
