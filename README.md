@@ -113,10 +113,7 @@ Mai Đông Duy-2606042062
 1. **Bệnh nhân (Patient):** Đặt lịch, check-in, tra cứu kết quả.
 2. **Lễ tân (Receptionist):** Tiếp đón, tạo hồ sơ mới, thu phí khám ban đầu, cấp STT.
 3. **Bác sĩ (Doctor):** Khám bệnh, chỉ định cận lâm sàng, kê đơn thuốc, kết luận.
-4. **Kỹ thuật viên Cận lâm sàng (Technician):** Thực hiện xét nghiệm/chụp chiếu, trả kết quả.
-5. **Thu ngân (Cashier):** Thu phí cận lâm sàng, tiền thuốc, xử lý hóa đơn.
-6. **Dược sĩ / Nhân viên nhà thuốc (Pharmacist):** Kiểm tra đơn thuốc, cấp phát thuốc, trừ tồn kho.
-7. **Quản trị viên (Admin):** Cấu hình danh mục, chia lịch trực, phân quyền, xem báo cáo doanh thu.
+4. **Quản trị viên (Admin):** Cấu hình danh mục, chia lịch trực, phân quyền, xem báo cáo doanh thu.
 
 ---
 
@@ -141,20 +138,8 @@ Mai Đông Duy-2606042062
     *   *Nhánh 1 (Cần xét nghiệm/chụp chiếu):* Tích chọn danh mục Cận lâm sàng (CLS) -> Gửi chỉ định. Ca khám chuyển sang trạng thái "Chờ kết quả CLS".
     *   *Nhánh 2 (Triệu chứng rõ ràng):* Bỏ qua CLS, chuyển thẳng sang màn hình Kê đơn thuốc.
 *   **[FR-DR-04] Kê đơn thuốc & Kết luận:** Chọn thuốc từ danh mục có sẵn trong kho, nhập liều dùng. Hệ thống cảnh báo nếu trùng tiền sử dị ứng. Nhập chẩn đoán bệnh (mã ICD-10) và bấm "Hoàn thành".
-
-### 4. Phân hệ Kỹ thuật viên CLS (Technician Module) - *Bổ sung bắt buộc*
-*   **[FR-TN-01] Tiếp nhận chỉ định CLS:** Xem danh sách bệnh nhân được bác sĩ gửi sang, tiến hành lấy mẫu (máu/nước tiểu) hoặc chụp chiếu (X-quang/Siêu âm).
-*   **[FR-TN-02] Cập nhật kết quả:** Nhập các chỉ số xét nghiệm hoặc tải file ảnh chụp lên hệ thống -> Nhấn "Phê duyệt". Kết quả tự động đồng bộ thời gian thực ngược về màn hình của Bác sĩ ban đầu.
-
-### 5. Phân hệ Thu ngân (Cashier Module) - *Bổ sung bắt buộc*
-*   **[FR-CH-01] Tính toán viện phí tổng hợp:** Load mã bệnh nhân để hiển thị các chi phí phát sinh (tiền dịch vụ CLS, tiền đơn thuốc).
-*   **[FR-CH-02] Xử lý thanh toán & Xuất hóa đơn:** Hỗ trợ quét mã VietQR động hoặc tiền mặt. Sau khi xác nhận thanh toán thành công, hệ thống chuyển trạng thái Đơn thuốc thành "Đã thanh toán - Chờ phát thuốc" và in biên lai.
-
-### 6. Phân hệ Dược sĩ / Nhà thuốc (Pharmacist Module) - *Bổ sung bắt buộc*
-*   **[FR-PH-01] Tiếp nhận đơn thuốc:** Hệ thống hiển thị danh sách các đơn thuốc đã được Thu ngân xác nhận thanh toán thành công.
-*   **[FR-PH-02] Xuất thuốc & Trừ tồn kho:** Dược sĩ soạn thuốc theo đơn, dán nhãn hướng dẫn và nhấn "Xác nhận cấp phát". Hệ thống tự động trừ số lượng thuốc tương ứng trong Kho dược thực tế.
-
-### 7. Phân hệ Quản trị viên (Admin Module)
+*   
+### 4. Phân hệ Quản trị viên (Admin Module)
 *   **[FR-AD-01] Dashboard giám sát:** Biểu đồ hiển thị số lượng ca khám trong ngày và thời gian chờ trung bình tại các khâu. Phát cảnh báo đỏ nếu phòng khám bị quá tải.
 *   **[FR-AD-02] Quản lý danh mục (Master Data):** Thêm, sửa, xóa danh mục Thuốc, giá dịch vụ khám và thông tin các Chuyên khoa.
 *   **[FR-AD-03] Quản lý Lịch làm việc:** Thiết lập ca trực cho Bác sĩ. Lịch này sẽ quyết định các khung giờ trống hiển thị trên App đặt lịch của Bệnh nhân.
