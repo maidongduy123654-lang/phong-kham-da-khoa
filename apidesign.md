@@ -13,18 +13,6 @@ Thiết kế API cho hệ thống quản lý phòng khám, phạm vi **4 phân h
 
 ---
 
-##  Mục lục
-
-- [1. Quy ước chung](#1-quy-ước-chung)
-- [2. Data Model](#2-data-model)
-- [3. State Machine của Visit](#3-state-machine-của-visit)
-- [4. Endpoint theo từng Module](#4-endpoint-theo-từng-module)
-- [5. Sample Request/Response](#5-sample-requestresponse)
-- [6. Traceability — FR → Endpoint](#6-traceability--fr--endpoint)
-- [7. Điểm cần xác nhận](#7-điểm-cần-xác-nhận)
-
----
-
 ## 1. Quy ước chung
 
 | Mục | Giá trị |
