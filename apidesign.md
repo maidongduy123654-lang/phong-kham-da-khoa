@@ -301,18 +301,7 @@ Response:
 
 ---
 
-## 7. Điểm cần xác nhận
-
-1. **Check-in 2 queue hay 1 queue?** — Kiosk in STT *chờ lễ tân* hay *chờ bác sĩ*? Bản thiết kế đang dùng 2 queue riêng (`QueueTicket.type = RECEPTION | DOCTOR`).
-2. **Lab result** — Do bỏ 3 role KTV/Thu ngân/Dược sĩ, giả định hệ thống ngoài (LIS) đẩy KQ vào qua `POST /internal/lab-results` (không public).
-3. **Versioning** — Dùng `/api/v1` — cần xác nhận.
-
----
-
-<div align="center">
-
 **— HẾT —**
 
-</div>
 
 
