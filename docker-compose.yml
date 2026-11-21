@@ -1,0 +1,42 @@
+﻿services:
+  db:
+    image: mysql:8.0
+    container_name: clinic-db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: Root@123456
+      MYSQL_DATABASE: clinic
+      MYSQL_USER: clinic_user
+      MYSQL_PASSWORD: Clinic@123456
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./db/init:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build: ./backend
+    container_name: clinic-api
+    restart: always
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DB_HOST: db
+      DB_PORT: 3306
+      DB_NAME: clinic
+      DB_USER: clinic_user
+      DB_PASSWORD: Clinic@123456
+      JWT_SECRET: your-super-secret-key-change-me-in-production
+      JWT_EXPIRES_IN: 7d
+      APP_PORT: 8000
+    ports:
+      - "8000:8000"
+
+volumes:
+  mysql_data:

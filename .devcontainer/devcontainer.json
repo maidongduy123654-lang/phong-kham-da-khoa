@@ -1,0 +1,12 @@
+﻿{
+  "name": "Clinic Management",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "forwardPorts": [8000, 3306],
+  "portsAttributes": {
+    "8000": { "label": "API Swagger", "onAutoForward": "openBrowser" }
+  },
+  "postCreateCommand": "docker compose up -d --build"
+}
